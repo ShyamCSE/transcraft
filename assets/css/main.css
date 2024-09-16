@@ -2214,9 +2214,11 @@ Animate wobble-vertical
   justify-content: center;
   align-items: center;
   padding: 46px 55px;
-  background: var(--black);
+  background: var(--theme-color);
   gap: 15px;
   z-index: 1;
+  border-radius: 30px;
+  box-shadow: #7a75e5;
 }
 
 .header-call-us * {
