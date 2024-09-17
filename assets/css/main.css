@@ -98,7 +98,7 @@ h6, i[class^=flaticon-], .body__overlay {
   --rajdhani-font: 'Rajdhani', sans-serif;
   --rubik-font: 'Rubik', sans-serif;
   /* colors */
-  --theme-color: #2920d7;
+  --theme-color: #2920d7d7;
   --color-1: #670099;
   --black: #121212;
   --black-2: #01273C;
@@ -112,6 +112,9 @@ h6, i[class^=flaticon-], .body__overlay {
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+html{
+  overflow-x:hidden;
 }
 
 /*---------------------------------
@@ -3418,10 +3421,13 @@ ul.footer-menu li:before {
 .swiper-slide-active .service-main-box h4 {
   color: var(--theme-color);
 }
-
+.div-service{
+  width:45%;
+}
 .service-main-box p {
   padding: 0 15px;
   margin-bottom: 55px;
+  height:45px;
 }
 
 .service-main-box .image-area .service-btn {
@@ -3501,11 +3507,10 @@ ul.footer-menu li:before {
   border: 1px solid var(--color-1);
   border-radius: 50%
 }
-
-.service-section .service-active-1 {
-  margin-right: -300px;
+.two-div{
+  display:flex;
+  justify-content: space-between;
 }
-
 .service-section.style-2 .service-active-2 {
   padding: 0 15px;
   background: var(--white);
@@ -7138,9 +7143,6 @@ a.price-btn {
   box-shadow: 0px 4px 20px 0px rgba(227, 207, 207, 0.25);
 }
 
-.service-section .service-active-1 {
-  margin-right: -300px;
-}
 
 /*----------------------------------------*/
 /*   ABOUT 3 SECTION CSS START
