@@ -957,8 +957,12 @@ textarea {
 /*----------------------------------------*/
 /*  SPACE CSS START
 /*----------------------------------------*/
-
-
+.section-title{
+  padding-top:50px;
+}
+.section-space-medium .accordion-item{
+  padding-bottom:50px;
+}
 .section-space {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -1021,21 +1025,21 @@ textarea {
 }
 
 .section-space-medium {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-space-medium {
-    padding: 80px 0;
+    padding: 0px 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-space-medium {
-    padding: 60px 0;
+    padding: 0px 0;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .section-space-medium {
-    padding: 60px 0;
+    padding: 0px 0;
   }
 }
 
@@ -3843,7 +3847,7 @@ ul.footer-menu li:before {
   background: rgba(1, 39, 60, 0.95);
 }
 
-.choose-section .bg-overlay-1:before{
+/* .choose-section .bg-overlay-1:before{
   content: "";
   position: absolute;
   top: 0;
@@ -3852,7 +3856,7 @@ ul.footer-menu li:before {
   height: 100%;
   background: var(--color-1);
   clip-path: polygon(14% 0%, 100% 0%, 100% 100%, 0 100%);
-}
+} */
 
 .choose-section .section-sub-title,
 .choose-section .section-title{
