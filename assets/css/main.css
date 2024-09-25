@@ -7986,7 +7986,7 @@ ul.sd-items li i {
   right: 0;
 }
 
-.sd-download {
+/* .sd-download {
   background: var(--theme-color);
   border-radius: 10px;
   padding: 30px;
@@ -7994,7 +7994,7 @@ ul.sd-items li i {
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
+} */
 
 .sd-download h5{
  color: var(--white);
