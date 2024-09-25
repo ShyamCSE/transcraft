@@ -6152,6 +6152,15 @@ a.option-btn {
 /*----------------------------------------*/
 /*  CHOOSE 2 CSS START
 /*----------------------------------------*/
+.sd-section.p-relative.section-space{
+  padding-bottom:50px !important;
+}
+
+.choose-2-section.section-space{
+  padding-top:0px !important;
+  padding-bottom:50px !important;
+}
+
 
 .why-choose .list-area {
   display: flex;
