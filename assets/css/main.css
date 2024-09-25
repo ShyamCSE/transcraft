@@ -6170,7 +6170,7 @@ a.option-btn {
 
 .why-choose .list-area ul li {
   font-family: var(--rajdhani-font);
-  font-size: 25px;
+  font-size: 15px;
   line-height: 35px;
   font-weight: 600;
   text-transform: uppercase;
@@ -6250,7 +6250,7 @@ a.option-btn {
 @media only screen and (max-width: 1399px){   
 
 .why-choose .list-area ul li {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 28px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -6329,7 +6329,7 @@ a.option-btn {
 }
 
 .why-choose .list-area ul li {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 28px;
 }
                                                       
@@ -7944,6 +7944,7 @@ ul.sd-items li i {
   background: rgba(238, 240, 245, 1);
   border-radius: 10px;
   padding: 80px 50px;
+  height:380px;
 }
 
 .sd-contact-cta h4 {
@@ -7972,7 +7973,7 @@ ul.sd-items li i {
 }
 
 .sd-contact-cta h3 {
-  font-size: 50px;
+  font-size: 35px;
   line-height: 60px;
 }
 
@@ -8012,6 +8013,10 @@ ul.sd-items li i {
   font-size: 35px;
 }
 
+.sd-content-wrapper .image{
+  height:380px;
+}
+
 @media only screen and (max-width: 1399px){
 
 .sd-contact-cta {
@@ -8019,7 +8024,7 @@ ul.sd-items li i {
 }
 
 .sd-download {
-  padding: 20px;
+  padding: 0px;
 }
 
 .sd-contact-cta h3 {
