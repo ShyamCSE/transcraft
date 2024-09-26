@@ -6193,7 +6193,7 @@ a.option-btn {
 .why-choose-tab ul li .nav-link {
   color: var(--black);
   border: 0;
-  width: 230px;
+  width: 270px;
   height: 50px;
   border-radius: 0;
   background: var(--white);
@@ -6242,9 +6242,12 @@ a.option-btn {
 
 .why-choose-tab #myTab {
   position: absolute;
-  bottom: 145px;
-  left: 25px;
+  bottom: 150px;
+  left: 98px;
   z-index: 1;
+}
+.tab-content .image.w-img{
+height:380px;
 }
 
 @media only screen and (max-width: 1399px){   
@@ -6257,11 +6260,11 @@ a.option-btn {
 }
 
 .why-choose-tab ul li .nav-link {
-  width: 180px;
+  width: 270px;
 }
 
 .why-choose-tab #myTab {
-  bottom: 160px;
+  bottom: 130px;
   left: 40px;
 }
 
