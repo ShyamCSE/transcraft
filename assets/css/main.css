@@ -2405,7 +2405,7 @@ Animate wobble-vertical
 }
 
 .header-main {
-  justify-content: start;
+  justify-content: space-between;
   gap: 70px;
 }
 
@@ -2424,7 +2424,7 @@ Animate wobble-vertical
 @media only screen and (max-width: 1440px){   
  
 .main-menu ul li {
-  margin-inline-end: 20px;
+  margin-inline-end: 60px;
 }
 
 .header-top .container {
@@ -2701,7 +2701,7 @@ Animate wobble-vertical
 }
 
 .header-two .main-menu ul li {
-  margin-inline-end: 25px;
+  margin-inline-end: 60px;
 }
 
 .header-two .header-info ul {
