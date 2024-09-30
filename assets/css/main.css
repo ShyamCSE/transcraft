@@ -1798,14 +1798,15 @@ Animate wobble-vertical
   position: relative;
   list-style: none;
   display: inline-block;
-  margin-inline-end: 40px;
+  margin-inline-end: 60px;
 }
 .main-menu ul li:last-child {
   margin-inline-end: 0;
 }
 .main-menu ul li a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight:500;
   color: var(--black);
   padding: 30px 0;
   text-align: left;
@@ -1817,7 +1818,7 @@ Animate wobble-vertical
 .main-menu ul li.has-dropdown > a::after {
   content: "\f078";
   transform: translateY(-1px);
-  font-size: 10px;
+  font-size: 16px;
   font-family: "Font Awesome 6 Pro";
   font-weight: 400;
   margin-inline-start: 5px;
@@ -2200,7 +2201,7 @@ Animate wobble-vertical
   width: 100%;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  background: #fff;
+  background: linear-gradient(180deg, #97c1ff 0%, #FFFFFF 100%);
   -webkit-box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.08);
   -moz-box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.08);
   box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.08);
@@ -2536,6 +2537,10 @@ Animate wobble-vertical
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(180deg, #97c1ff 0%, #FFFFFF 100%);
+}
+.bg-color-2{
+  background: linear-gradient(180deg, #97c1ff 0%, #FFFFFF 100%);
 }
 
 .header-two .header-info ul {
@@ -2784,7 +2789,7 @@ Animate wobble-vertical
 }
 
 .header-three .mega-menu-wrapper {
-  background: var(--white);
+  background: linear-gradient(180deg, #97c1ff 0%, #FFFFFF 100%);
   padding: 0 50px;
   border-radius: 0 0 10px 10px;
 }
